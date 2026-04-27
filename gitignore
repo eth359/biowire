@@ -1,0 +1,51 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ─────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ── FlyWire large data files (download separately from codex.flywire.ai) ─
+consolidated_cell_types.csv.gz
+connections_princeton_no_threshold.csv.gz
+*.csv.gz
+*.csv
+
+# ── Generated output figures ─────────────────────────────────────────────
+biowire_v1_topology.png
+biowire_v1_weight_matrices.png
+biowire_v1_voltage_traces.png
+biowire_v1_stimulus_results.png
+biowire_v1_ephys_comparison.png
+biowire_v1_negative_control.png
+
+# ── OS & editor files ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Conda / pip ──────────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
